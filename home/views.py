@@ -9,6 +9,7 @@ JSON_data = [
         "totalclaim": 1,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -18,6 +19,7 @@ JSON_data = [
         "totalclaim": 19,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -27,6 +29,7 @@ JSON_data = [
         "totalclaim": 11,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -36,6 +39,7 @@ JSON_data = [
         "totalclaim": 54,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -45,6 +49,7 @@ JSON_data = [
         "totalclaim": 65,
         "totalchargeback": 33,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -54,6 +59,7 @@ JSON_data = [
         "totalclaim": 6,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -63,6 +69,7 @@ JSON_data = [
         "totalclaim": 15,
         "totalchargeback": 2,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -72,6 +79,7 @@ JSON_data = [
         "totalclaim": 1,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -81,6 +89,7 @@ JSON_data = [
         "totalclaim": 2,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -90,6 +99,7 @@ JSON_data = [
         "totalclaim": 3,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -99,6 +109,7 @@ JSON_data = [
         "totalclaim": 36,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -108,6 +119,7 @@ JSON_data = [
         "totalclaim": 4,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -117,6 +129,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -126,6 +139,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 2,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -135,6 +149,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 1,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -144,6 +159,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 834,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -153,6 +169,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 204925,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -162,6 +179,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 2859,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -171,6 +189,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 4165,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -180,6 +199,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 1,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -189,6 +209,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 26,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -198,6 +219,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 3718,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -207,6 +229,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 7,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -216,6 +239,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 647,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -225,6 +249,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 3245,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -234,6 +259,7 @@ JSON_data = [
         "totalclaim": 1,
         "totalchargeback": 0,
         "totalpa61": 68,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -243,6 +269,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -252,6 +279,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -261,6 +289,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -270,6 +299,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Closed",
@@ -279,6 +309,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "LIRR",
     },
     {
         "openclose": "Open",
@@ -288,6 +319,7 @@ JSON_data = [
         "totalclaim": 11,
         "totalchargeback": 5,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -297,6 +329,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -306,6 +339,7 @@ JSON_data = [
         "totalclaim": 4,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -315,6 +349,7 @@ JSON_data = [
         "totalclaim": 3,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -324,6 +359,7 @@ JSON_data = [
         "totalclaim": 2,
         "totalchargeback": 4,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -333,6 +369,7 @@ JSON_data = [
         "totalclaim": 41,
         "totalchargeback": 8,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -342,6 +379,7 @@ JSON_data = [
         "totalclaim": 5,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -351,6 +389,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 8,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -360,6 +399,7 @@ JSON_data = [
         "totalclaim": 4,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -369,6 +409,7 @@ JSON_data = [
         "totalclaim": 2,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -378,6 +419,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -387,6 +429,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Open",
@@ -396,6 +439,7 @@ JSON_data = [
         "totalclaim": 1,
         "totalchargeback": 1,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -405,6 +449,7 @@ JSON_data = [
         "totalclaim": 6,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -414,6 +459,7 @@ JSON_data = [
         "totalclaim": 2,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -423,6 +469,7 @@ JSON_data = [
         "totalclaim": 7,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -432,6 +479,7 @@ JSON_data = [
         "totalclaim": 6,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -441,6 +489,7 @@ JSON_data = [
         "totalclaim": 2,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -450,6 +499,7 @@ JSON_data = [
         "totalclaim": 1,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -459,6 +509,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -468,6 +519,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
     {
         "openclose": "Closed",
@@ -477,6 +529,7 @@ JSON_data = [
         "totalclaim": 0,
         "totalchargeback": 0,
         "totalpa61": 0,
+        "page": "MNR",
     },
 ]
 
@@ -484,9 +537,19 @@ JSON_data = [
 # Create your views here.
 def home(request):
     template_data = {}
+    template_data["title"] = "LIRR and MNR Page"
+    template_data["selected_page"] = "Both"
+    template_data["selected_sub"] = "All"
+    template_data["data"] = JSON_data
+    return render(request, "home/index.html", {"template_data": template_data})
+
+
+def lirr(request):
+    template_data = {}
     template_data["title"] = "LIRR Page"
     template_data["selected_page"] = "LIRR"
-    template_data["data"] = JSON_data
+    template_data["selected_sub"] = "All"
+    template_data["data"] = list(filter(lambda x: x["page"] == "LIRR", JSON_data))
     return render(request, "home/index.html", {"template_data": template_data})
 
 
@@ -494,4 +557,40 @@ def mnr(request):
     template_data = {}
     template_data["title"] = "MNR Page"
     template_data["selected_page"] = "MNR"
-    return render(request, "home/mnr.html", {"template_data": template_data})
+    template_data["selected_sub"] = "All"
+    template_data["data"] = list(filter(lambda x: x["page"] == "MNR", JSON_data))
+    return render(request, "home/index.html", {"template_data": template_data})
+
+
+def show(request, id):
+    template_data = {}
+    template_data["title"] = "Show Page"
+    template_data["selected_page"] = "Show"
+    template_data["data"] = JSON_data[id]
+    return render(request, "home/show.html", {"template_data": template_data})
+
+
+def subpage(request, page, subpage):
+    template_data = {}
+    template_data["selected_page"] = page
+    template_data["selected_sub"] = subpage
+    template_data["title"] = "{} - {}".format(page, subpage)
+    if page == "LIRR":
+        filtered_data = list(filter(lambda x: x["page"] == "LIRR", JSON_data))
+    elif page == "MNR":
+        filtered_data = list(filter(lambda x: x["page"] == "MNR", JSON_data))
+    else:
+        filtered_data = JSON_data
+
+    print(subpage)
+
+    if subpage != "All":
+        if subpage == "MailAndRide":
+            filtered_data = list(
+                filter(lambda x: x["dept"] == "Mail And Ride", filtered_data)
+            )
+        else:
+            filtered_data = list(filter(lambda x: x["dept"] == subpage, filtered_data))
+
+    template_data["data"] = filtered_data
+    return render(request, "home/index.html", {"template_data": template_data})
