@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import PersonalInformation
 
 JSON_data = [
     {
@@ -582,8 +583,6 @@ def subpage(request, page, subpage):
     else:
         filtered_data = JSON_data
 
-    print(subpage)
-
     if subpage != "All":
         if subpage == "MailAndRide":
             filtered_data = list(
@@ -594,3 +593,24 @@ def subpage(request, page, subpage):
 
     template_data["data"] = filtered_data
     return render(request, "home/index.html", {"template_data": template_data})
+
+
+def refund(request):
+    template_data = {}
+    template_data["title"] = "Refund Form"
+    if request.method == "GET":
+        form = PersonalInformation()
+        template_data["form"] = form
+        return render(request, "home/refund.html", {"template_data": template_data})
+    elif request.method == "POST":
+        form = PersonalInformation(request.POST)
+        if form.is_valid():
+            # Process the form data here
+            cleaned_data = form.cleaned_data
+            return render(
+                request,
+                "home/refund_success.html",
+                {"data": cleaned_data},
+            )
+        else:
+            return render(request, "home/refund.html", {"form": form})

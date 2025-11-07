@@ -7,4 +7,5 @@ urlpatterns = [
     path("mnr/", views.mnr, name="home.mnr"),
     path("<int:id>/", views.show, name="home.show"),
     path("<slug:page>/<slug:subpage>/", views.subpage, name="home.subpage"),
+    path("refund/", views.refund, name="home.refund"),
 ]
