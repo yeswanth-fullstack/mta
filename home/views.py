@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import PersonalInformation
+from .forms import PersonalInformation, RoutingInformation
 
 JSON_data = [
     {
@@ -599,9 +599,17 @@ def refund(request):
     template_data = {}
     template_data["title"] = "Refund Form"
     if request.method == "GET":
-        form = PersonalInformation()
-        template_data["form"] = form
-        return render(request, "home/refund.html", {"template_data": template_data})
+        routing_form = RoutingInformation(prefix="routing")
+        personal_form = PersonalInformation(prefix="personal")
+        template_data["forms"] = [
+            {"title": "Routing Information", "form": routing_form},
+            {"title": "Personal Information", "form": personal_form},
+        ]
+        return render(
+            request,
+            "home/refund.html",
+            {"template_data": template_data},
+        )
     elif request.method == "POST":
         form = PersonalInformation(request.POST)
         if form.is_valid():
@@ -613,4 +621,4 @@ def refund(request):
                 {"data": cleaned_data},
             )
         else:
-            return render(request, "home/refund.html", {"form": form})
+            return render(request, "home/refund.html", {"template_data": template_data})
