@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import PersonalInformation, RoutingInformation
+from .forms import PersonalInformation, RoutingInformation, QueryForm
 
 JSON_data = [
     {
@@ -622,3 +622,14 @@ def refund(request):
             )
         else:
             return render(request, "home/refund.html", {"template_data": template_data})
+
+
+def query(request):
+    template_data = {}
+    template_data["title"] = "Query Form"
+    template_data["filter"] = True
+    if request.method == "GET":
+        query_form = QueryForm(prefix="query")
+        template_data["forms"] = query_form
+        return render(request, "home/filter.html", {"template_data": template_data})
+    return render(request, "home/filter.html", {"template_data": template_data})

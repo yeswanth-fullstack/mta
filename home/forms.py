@@ -154,3 +154,91 @@ class ReasonStatusInformation(BaseFormTemplate):
             "reason",
             "status_update",
         )
+
+
+class QueryForm(BaseFormTemplate):
+    bill_number = forms.CharField(max_length=20, label="BILL NO:", required=False)
+    query_seq = forms.CharField(max_length=20, label="QUERY SEQ #:", required=False)
+    form_no = forms.CharField(max_length=20, label="FORM NO #:", required=False)
+    status = forms.ChoiceField(
+        choices=[
+            ("all", "All"),
+            ("open", "Open"),
+            ("closed", "Closed"),
+        ],
+        label="Status",
+    )
+    transaction_type = forms.ChoiceField(
+        choices=[
+            ("all", "All"),
+            ("type1", "Type 1"),
+            ("type2", "Type 2"),
+        ],
+        label="Transaction Type",
+    )
+    created_by_department = forms.ChoiceField(
+        choices=[("dept1", "Department 1"), ("dept2", "Department 2")],
+        label="Created by Department",
+    )
+    transaction_routed_to_department = forms.ChoiceField(
+        choices=[("dept1", "Department 1"), ("dept2", "Department 2")],
+        label="Transaction Routed to Department",
+    )
+    open_date_from = forms.DateField(
+        label="Open Date From",
+        widget=forms.DateInput(attrs={"type": "date"}),
+        required=False,
+    )
+    open_date_to = forms.DateField(
+        label="Open Date To",
+        widget=forms.DateInput(attrs={"type": "date"}),
+        required=False,
+    )
+    create_date = forms.DateField(
+        label="Create Date",
+        widget=forms.DateInput(attrs={"type": "date"}),
+        required=False,
+    )
+    close_date = forms.DateField(
+        label="Close Date",
+        widget=forms.DateInput(attrs={"type": "date"}),
+        required=False,
+    )
+    customer_order_number = forms.CharField(
+        max_length=30, label="Customer Order Number", required=False
+    )
+    current_status = forms.ChoiceField(
+        choices=[
+            ("all", "All"),
+            ("pending", "Pending"),
+            ("approved", "Approved"),
+            ("denied", "Denied"),
+        ],
+        label="Current Status",
+    )
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper.layout = Layout(
+            Row(
+                Column("bill_number", css_class="me-2"),
+                Column("query_seq", css_class="mx-2"),
+                Column("form_no", css_class="ms-2"),
+            ),
+            Row(
+                Column("status", css_class="me-2"),
+                Column("transaction_type", css_class="mx-2"),
+                Column("created_by_department", css_class="ms-2"),
+                Column("transaction_routed_to_department", css_class="ms-2"),
+            ),
+            Row(
+                Column("open_date_from", css_class="me-2"),
+                Column("open_date_to", css_class="mx-2"),
+                Column("create_date", css_class="ms-2"),
+                Column("close_date", css_class="ms-2"),
+            ),
+            Row(
+                Column("customer_order_number", css_class="me-2"),
+                Column("current_status", css_class="ms-2"),
+            ),
+        )
