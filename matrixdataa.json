@@ -1,0 +1,56 @@
+,"items":
+[
+{"openclose":"Open","dept":"CS","users":"A. Lester","totalrefund":0,"totalclaim":1,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"CC Approval Letters","totalrefund":121,"totalclaim":19,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"CC Claim over $100","totalrefund":0,"totalclaim":11,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"Online Claims","totalrefund":0,"totalclaim":54,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"R. Cabrera ","totalrefund":89,"totalclaim":65,"totalchargeback":33,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"S. Stephens","totalrefund":1,"totalclaim":6,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CS","users":"V. Kravtsov","totalrefund":35,"totalclaim":15,"totalchargeback":2,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"CC Approval Letters","totalrefund":27,"totalclaim":1,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"CC Claim over $100","totalrefund":0,"totalclaim":2,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"Online Claims","totalrefund":0,"totalclaim":3,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"R. Cabrera ","totalrefund":41,"totalclaim":36,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"S. Stephens","totalrefund":0,"totalclaim":4,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"CS","users":"V. Kravtsov","totalrefund":5,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"CTP","users":"CTP Paid Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":2}
+,{"openclose":"Open","dept":"CTP","users":"CTP-System","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":1}
+,{"openclose":"Open","dept":"CTP","users":"Deadbeat","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":834}
+,{"openclose":"Open","dept":"CTP","users":"Fare Not Paid Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":204925}
+,{"openclose":"Open","dept":"CTP","users":"Illegible","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":2859}
+,{"openclose":"Open","dept":"CTP","users":"Letters Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":4165}
+,{"openclose":"Open","dept":"CTP","users":"Letters Ret Undeliverable","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":1}
+,{"openclose":"Open","dept":"CTP","users":"Waived Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":26}
+,{"openclose":"Closed","dept":"CTP","users":"CTP Paid Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":3718}
+,{"openclose":"Closed","dept":"CTP","users":"Deadbeat","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":7}
+,{"openclose":"Closed","dept":"CTP","users":"Illegible","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":647}
+,{"openclose":"Closed","dept":"CTP","users":"Letters Folder","totalrefund":0,"totalclaim":0,"totalchargeback":0,"totalpa61":3245}
+,{"openclose":"Closed","dept":"CTP","users":"Waived Folder","totalrefund":0,"totalclaim":1,"totalchargeback":0,"totalpa61":68}
+,{"openclose":"Open","dept":"Mail And Ride","users":"M R Cash Refund For Proces","totalrefund":2,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"Mail And Ride","users":"I. Jones","totalrefund":1,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"Mail And Ride","users":"M R Cash Refund For Proces","totalrefund":8,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"Mail And Ride","users":"M. Panetta","totalrefund":1,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"Mail And Ride","users":"T. Odermatt","totalrefund":1,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"A Brown","totalrefund":32,"totalclaim":11,"totalchargeback":5,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"C. Lambert","totalrefund":1,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"CC Refund for process","totalrefund":14,"totalclaim":4,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"Cash Refund For Process","totalrefund":5,"totalclaim":3,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"E. Vinculado","totalrefund":1,"totalclaim":2,"totalchargeback":4,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"G. Lobianco","totalrefund":51,"totalclaim":41,"totalchargeback":8,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"J. Jones","totalrefund":7,"totalclaim":5,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"M. Balsome","totalrefund":8,"totalclaim":0,"totalchargeback":8,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"M. McDermott","totalrefund":40,"totalclaim":4,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"R. Cabrera ","totalrefund":5,"totalclaim":2,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"R. Cepeda","totalrefund":6,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"T Pong","totalrefund":2,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Open","dept":"PRA","users":"Y. Walcott","totalrefund":20,"totalclaim":1,"totalchargeback":1,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"A Brown","totalrefund":18,"totalclaim":6,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"CC Refund for process","totalrefund":3,"totalclaim":2,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"Cash Refund For Process","totalrefund":7,"totalclaim":7,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"G. Lobianco","totalrefund":16,"totalclaim":6,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"J. Jones","totalrefund":1,"totalclaim":2,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"M. Balsome","totalrefund":0,"totalclaim":1,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"M. Goulard","totalrefund":1,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"R. Cabrera ","totalrefund":2,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+,{"openclose":"Closed","dept":"PRA","users":"Y. Walcott","totalrefund":2,"totalclaim":0,"totalchargeback":0,"totalpa61":0}
+]}]}

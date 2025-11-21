@@ -1,0 +1,107 @@
+{% extends 'base.html' %} {% block content %}
+<div class="p-3">
+  <div class="container">
+    <div class="d-flex gap-2">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          {{ template_data.selected_page|default:"More" }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <a class="dropdown-item" href="{% url 'home.index' %}">Both</a>
+          <a class="dropdown-item" href="{% url 'home.lirr' %}">LIRR</a>
+          <a class="dropdown-item" href="{% url 'home.mnr' %}">MNR</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton2"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          {{ template_data.selected_sub }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+          <a
+            class="dropdown-item"
+            href="{% url 'home.subpage' template_data.selected_page 'All' %}"
+            >All</a
+          >
+          <a
+            class="dropdown-item"
+            href="{% url 'home.subpage' template_data.selected_page 'CTP' %}"
+            >CTP</a
+          >
+          <a
+            class="dropdown-item"
+            href="{% url 'home.subpage' template_data.selected_page 'PRA' %}"
+            >PRA</a
+          >
+          <a
+            class="dropdown-item"
+            href="{% url 'home.subpage' template_data.selected_page 'CS' %}"
+            >CS</a
+          >
+          <a
+            class="dropdown-item"
+            href="{% url 'home.subpage' template_data.selected_page 'MailAndRide' %}"
+            >Mail And Ride</a
+          >
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col mx-auto mb-3">
+        <hr />
+        {% if template_data.filter == True %}
+          <p>Filter is explicitly True!</p>
+        {% else %}
+          <h2>WORK QUEUE LISTING - {{ template_data.title }}</h2>
+        <table class="mt-3 table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Status</th>
+              <th scope="col">Department</th>
+              <th scope="col">Users</th>
+              <th scope="col">Total Refund</th>
+              <th scope="col">Total Claim</th>
+              <th scope="col">Total Chargeback</th>
+              <th scope="col">Total PA61</th>
+              <th scope="col">Page</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in template_data.data %}
+            <tr
+              class="{% if row.openclose == 'Open' %} table-success {% else %} table-danger {% endif %}"
+              style="cursor: pointer"
+              onclick="window.location.href='{% url 'home.show' forloop.counter0 %}'"
+            >
+              <td scope="row">{{ row.openclose }}</td>
+              <td scope="row">{{ row.dept }}</td>
+              <td scope="row">{{ row.users }}</td>
+              <td scope="row">{{ row.totalrefund }}</td>
+              <td scope="row">{{ row.totalclaim }}</td>
+              <td scope="row">{{ row.totalchargeback }}</td>
+              <td scope="row">{{ row.totalpa61 }}</td>
+              <td scope="row">{{ row.page }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

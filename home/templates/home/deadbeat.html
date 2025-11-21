@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+  <h1>Deadbeat List</h1>
+  <hr />
+  <p><b>From Date:</b> 03/12/2024</p>
+  <p><b>To Date:</b> 09/12/2025</p>
+  <hr />
+  <p>Please choose one of the following</p>
+  <div class="mt-5 mb-5">
+    <a
+      type="button"
+      class="btn btn-warning me-3"
+      href="{% url 'home.list_deadbeats' %}"
+    >
+      Continue working on this list
+    </a>
+    <a type="button" class="btn btn-primary">Create a new list</a>
+  </div>
+</div>
+
+{% endblock content %}
